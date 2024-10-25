@@ -18,11 +18,13 @@ Sau khi đăng nhập thì ta thấy giao diện dashboard sau:
 
 ![](images/1729780024802.png)
 
-Có một chức năng khá thú vị ở đây là thay đổi email. Thử sử dụng chức năng này để đổi một email và kiểm tra request. Ta phát hiện một api khá tiềm năng:
+Có một chức năng khá thú vị ở đây là thay đổi email.
+Thử sử dụng chức năng này để đổi một email và kiểm tra request. 
+Ta phát hiện một api khá tiềm năng:
 
 ![](images/1729780127469.png)
 
-```
+```text
 PATCH /api/user/wiener
 ```
 
@@ -30,7 +32,7 @@ PATCH /api/user/wiener
 
 Đổi HTTP method thành GET và bắt đầu dò tìm base path, ta thu được một API path:
 
-```
+```text
 GET /api/
 ```
 

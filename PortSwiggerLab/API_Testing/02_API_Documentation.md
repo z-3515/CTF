@@ -36,7 +36,7 @@ You can also use a list of common paths to find documentation using Intruder.
 
 To solve the lab, find the exposed API documentation and delete `carlos`. You can log in to your own account using the following credentials: `wiener:peter`.
 
-[(link)](02_Lab_API_Documentation.md)
+[write up](02_Lab_API_Documentation.md)
 
 ---
 
